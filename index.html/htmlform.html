@@ -1,0 +1,44 @@
+<!doctype html>
+<htm>
+    <head>
+        <title>
+            form html
+        </title>
+    </head>
+    <body>
+        <form action="http://127.0.0.1:5500/html_1.html" method="GET" border="10" bordercolor="blue" align="center">
+            <fieldset>
+                <legend>FORM CREATION</legend>
+                <label for="firstname"><b>firstname:</b></label>
+                <input type="text" Name="firstname" maxlength="20" id="firstname" placeholder="please enter your name"/><br/></br>
+                
+                <label for="surname"><b>surname:</b></label>
+                <input type="text" Name="SURENAME" maxlength="20" id="surname" placeholder="please enter your surname"/><br/></br>
+
+                <label for="address"><b>address:</b></label>
+                <textarea Name="ADDRESS" rows="3" cols="3" id="address"></textarea></br></br></br>
+
+                <div class="checks">
+                <p><b>Please Trick Your Interested Subjects?</b></p>
+                  <input type="checkbox" Name="maths" id=""maths value="on">
+                  <label for="maths"><b>maths</b></label>
+                  <input type="checkbox" Name="science" id="science" value="on">
+                  <label for="science"><b>science</b></label></br></br>
+                </div>
+
+                <div class="checks">
+                      <input type="radio" Name="male" value="on">male
+                      <input type="radio" Name="female" value="on">female</br></br>
+                </div>
+                <select name="dropdown">
+                    <option value="MATHS" selected>MATHS</option>
+                    <option value="science" selected>science</option>
+                  </select></br></br>
+                  <input type="file" name="fileupload" accept="image.jpg" /></br></br>
+                  <input type="submit" name="submit" value="submit"/>&nbsp;
+                  <input type="reset" name="reset" value="reset"/>&nbsp;
+                  <input type="button" name="ok" value="ok"/>&nbsp;
+           </fieldset>
+        </form>
+    </body>
+</html>

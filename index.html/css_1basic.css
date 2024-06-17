@@ -1,0 +1,33 @@
+h1
+{
+    font-family:arial;
+    font-size:30px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 100;
+}
+p{
+    text-indent: 30px;
+    text-align:center;
+    text-decoration:underline;
+    letter-spacing:3px;
+    text-transform:Uppercase;
+}
+body
+{
+    border-radius:30px 30px 30px 30px;
+    border-bottom-color:blue;
+    border-top-color:blueviolet;
+    border-left-color:purple;
+    border-right-color:brown;
+    border-bottom-style:double;
+    border-top-style:solid;
+    border-right-style:dashed;
+    border-left-style:groove;
+    border-top-width:thick;
+    border-bottom-width:thick;
+    border-left-width:thick;
+    border-right-width:thick;
+    background-color:white;
+    background-image:"93525578.jpg";
+}
